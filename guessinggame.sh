@@ -1,3 +1,6 @@
+#!/usr/bin/env bash
+# File: guessinggame.sh
+
 filesInDirectory=$(ls -1 | wc -l)
 
 function guess {
@@ -16,7 +19,7 @@ guess
 
 	elif [[ $response -gt $filesInDirectory ]]
 	then
-		echo "You guessed $response ... That is too few! Try again."
+		echo "You guessed $response ... That is too many! Try again."
 	fi
 done
 
