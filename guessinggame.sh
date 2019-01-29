@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # File: guessinggame.sh
 
 filesInDirectory=$(ls -1 | wc -l)
